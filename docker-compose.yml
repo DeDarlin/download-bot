@@ -13,7 +13,7 @@ services:
       - bot-api-data:/var/lib/telegram-bot-api
     restart: unless-stopped
     
-  # Ваш бот
+  # Бот
   bot:
     build: .
     environment:
