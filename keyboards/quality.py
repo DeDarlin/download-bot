@@ -4,7 +4,6 @@ def quality_keyboard(videos, audio_id):
     buttons = []
 
     for v in videos:
-        # Используем height вместо quality
         height = v.get('height') or 0
         buttons.append([
             InlineKeyboardButton(
